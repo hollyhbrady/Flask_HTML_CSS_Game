@@ -2,7 +2,7 @@ import unittest
 from modules.game import *
 from modules.player import Player
 
-class testGame(unittest.TestCase)
+class TestGame(unittest.TestCase):
 
     def setUp(self):
         self.roosa = Player("Roosa", "rock")
