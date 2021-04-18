@@ -16,9 +16,9 @@ class Game:
         if self.player1.gesture == "paper" and self.player2.gesture == "scissors":
             return f"{player2.name} wins by playing scissors against {player1.name}'s paper"
         if self.player1.gesture == "paper" and self.player2.gesture == "rock":
-            return f"{player1.name} wins by playing paper {player2.name}'s rock"
+            return f"{player1.name} wins by playing paper against {player2.name}'s rock"
         if self.player1.gesture == "rock" and self.player2.gesture == "paper":
-            return f"{player2.name} wins by playing paper {player1.name}'s rock"
+            return f"{player2.name} wins by playing paper against {player1.name}'s rock"
         if self.player1.gesture == "rock" and self.player2.gesture == "rock":
             return "No winner, this game is a draw. Best of 3?"
         if self.player1.gesture == "paper" and self.player2.gesture == "paper":

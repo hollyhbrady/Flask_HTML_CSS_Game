@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(177, 177, 206);
+}
+
+div {
+    color:rgba(4, 1, 202, 0.685);
+    margin: 20px;
+    padding: 20px;
+}
+
+#play-button {
+    background-color: rgb(104, 183, 209);
+    text-shadow: lightcoral;
+    text-decoration-color: lightpink;
+    margin: 10px;
+    padding: 5px;
+}
+
+h2 {
+    color: rgb(129, 36, 235);
+}
+
+h3 {
+    color: rgb(149, 74, 235);
+}
+
+#result-header {
+    display: flex;
+    align-self: center;
+}
+
+p {
+    color: rgba(4, 1, 202, 0.685);
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+}
