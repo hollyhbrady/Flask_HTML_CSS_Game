@@ -2,10 +2,26 @@ body {
     background-color: rgb(177, 177, 206);
 }
 
-div {
-    color:rgba(4, 1, 202, 0.685);
-    margin: 20px;
-    padding: 20px;
+.flex-container {
+    display: grid;
+    justify-content: space-evenly;
+    grid-template-areas: 
+    '1 1 1'
+    '2 2 2'
+    '3 3 3';
+    
+}
+
+.grid-item1 {
+    grid-area: 1;
+}
+
+.grid-item2 {
+    grid-area: 2;
+}
+
+.grid-item3 {
+    grid-area: 3;
 }
 
 #play-button {
@@ -18,10 +34,14 @@ div {
 
 h2 {
     color: rgb(129, 36, 235);
+    display: flex;
+    align-self: center;
 }
 
 h3 {
     color: rgb(149, 74, 235);
+    display: flex;
+    align-self: center;
 }
 
 #result-header {
@@ -31,7 +51,4 @@ h3 {
 
 p {
     color: rgba(4, 1, 202, 0.685);
-    display: flex;
-    justify-content: space-around;
-    align-content: flex-start;
 }
